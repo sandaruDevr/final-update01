@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://thumb-lytics.site/blog</loc>
+    <lastmod>2025-01-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://thumb-lytics.site/sitemap.xml</loc>
     <lastmod>2025-01-05</lastmod>
     <priority>0.6</priority>
