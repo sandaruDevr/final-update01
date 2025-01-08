@@ -18,7 +18,7 @@ export const seoConfig = {
   pages: {
     home: {
       title: 'Free YouTube Thumbnail Analyzer - Boost Your Video CTR',
-      description: 'Optimize your YouTube thumbnails with AI-powered analysis. Get instant feedback on design, clarity, and engagement potential. Increase your CTR and grow your channel with data-driven insights.',
+      description: 'Best AI-powered YouTube Thumbnail Analyzer tool to test and optimize your thumbnail design. Boost clarity, engagement, and CTR effortlessly.',
       keywords: [
         'youtube thumbnail analyzer',
         'thumbnail optimization',
