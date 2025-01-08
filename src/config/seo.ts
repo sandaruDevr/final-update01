@@ -1,7 +1,7 @@
 export const seoConfig = {
   default: {
     title: 'Free YouTube Thumbnail Analyzer - AI-Powered Optimization Tool',
-    description: 'Create better YouTube thumbnails with our free AI-powered analyzer. Get instant feedback on clarity, engagement potential, and optimization tips to increase your video views and CTR.',
+    description: 'Best AI-powered YouTube Thumbnail Analyzer tool to test and optimize your thumbnail design. Boost clarity, engagement, and CTR effortlessly.',
     keywords: [
       'youtube thumbnail analyzer',
       'free thumbnail analysis',
