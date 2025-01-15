@@ -1,5 +1,5 @@
 export const GEMINI_CONFIG = {
-  model: 'gemini-1.5-flash',
+  model: 'gemini-1.5-pro',
   generation: {
     maxOutputTokens: 1024, // Further reduced to ensure complete responses
     temperature: 0.1,
