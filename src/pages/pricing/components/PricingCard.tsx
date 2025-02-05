@@ -8,14 +8,14 @@ interface PricingCardProps {
 }
 
 export function PricingCard({ tier }: PricingCardProps) {
+  // Hide card completely if visibility is explicitly set to false
+  if (tier.visibility === false) return null;
+
   const handlePurchase = () => {
-    // For enterprise, we might want to handle differently
     if (tier.name === 'Enterprise') {
       // TODO: Implement contact sales flow
       return;
     }
-    
-    // Navigate to payment page with plan parameter
     window.location.href = `/payment?plan=${encodeURIComponent(tier.name)}`;
   };
 
@@ -26,6 +26,7 @@ export function PricingCard({ tier }: PricingCardProps) {
         ? 'bg-gradient-to-b from-blue-50 to-white ring-2 ring-blue-500 shadow-xl' 
         : 'bg-white shadow-lg'
       }
+      ${tier.visibility === false ? 'invisible' : ''}
     `}>
       {tier.popular && (
         <div className="flex items-center gap-1 text-blue-600 mb-4">
