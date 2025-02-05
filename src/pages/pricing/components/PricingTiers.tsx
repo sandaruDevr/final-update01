@@ -1,11 +1,10 @@
 import React from 'react';
-import { Check, Zap } from 'lucide-react';
 import { PricingCard } from './PricingCard';
 import type { PricingTier } from '../types';
 
 export const tiers: PricingTier[] = [
   {
-    visibility : false,
+    visibility: false,
     name: 'Free',
     price: 0,
     description: 'Perfect for getting started',
@@ -35,7 +34,7 @@ export const tiers: PricingTier[] = [
     popular: true
   },
   {
-    visibility : false,
+    visibility: false,
     name: 'Enterprise',
     price: 29.99,
     description: 'For teams and agencies',
@@ -53,9 +52,18 @@ export const tiers: PricingTier[] = [
 ];
 
 export function PricingTiers() {
+  // Filter out hidden plans
+  const visibleTiers = tiers.filter((tier) => tier.visibility !== false);
+
   return (
-    <div className="grid md:grid-cols-3 gap-8 mb-16">
-      {tiers.map((tier) => (
+    <div
+      className={`gap-8 mb-16 ${
+        visibleTiers.length === 1
+          ? 'flex justify-center' // Center if only one pricing card is visible
+          : 'grid md:grid-cols-3'
+      }`}
+    >
+      {visibleTiers.map((tier) => (
         <PricingCard key={tier.name} tier={tier} />
       ))}
     </div>
