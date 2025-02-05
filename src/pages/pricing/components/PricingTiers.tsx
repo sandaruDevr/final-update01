@@ -4,7 +4,7 @@ import { PricingCard } from './PricingCard';
 import type { PricingTier } from '../types';
 
 export const tiers: PricingTier[] = [
- 
+ {},
   {
     name: 'Pro',
     price: 4.99,
@@ -21,7 +21,7 @@ export const tiers: PricingTier[] = [
     buttonVariant: 'gradient',
     popular: true
   },
-  
+ {},
 ];
 
 export function PricingTiers() {
