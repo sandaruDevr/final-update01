@@ -19,13 +19,13 @@ export const tiers: PricingTier[] = [
   },
   {
     name: 'Pro',
-    price: 4.99,
+    price: 5.99,
     description: 'Best for content creators',
     features: [
       'Advanced AI analysis',
-      'Unlimited analyses',
-      'Batch processing',
-      'Competitor analysis',
+      'Advanced AI analysis',
+      'Advanced YouTube Previews ',
+      'Access to Affiliate Program  ',
       'Priority support',
       'Custom branding'
     ],
