@@ -5,6 +5,7 @@ export const seoConfig = {
     keywords: [
       'youtube thumbnail analyzer',
       'free thumbnail analysis',
+      'AI thumbnail analyzer',
       'youtube thumbnail optimization',
       'thumbnail ai analysis',
       'video thumbnail tool',
@@ -23,7 +24,7 @@ export const seoConfig = {
         'youtube thumbnail analyzer',
         'thumbnail optimization',
         'video ctr improvement',
-        'youtube growth',
+        'thumbnail analyze AI',
         'thumbnail analysis'
       ]
     },
